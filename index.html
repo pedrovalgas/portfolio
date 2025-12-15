@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Valgas | Backend Developer</title>
+    
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/favicon.png">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+    <canvas id="particles"></canvas>
+
+    <header id="header">
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#home" class="nav-link active"><i class="ph ph-house" style="font-size: 1.5rem;"></i></a></li>
+                <li><a href="#projects" class="nav-link">Projetos</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <div class="home-container">
+                <div class="home-content">
+                    <h1 class="dev-title">
+                        <span class="tag">&lt;</span>Desenvolvedor<br>Backend<span class="tag">&gt;</span>
+                    </h1>
+                    
+                    <p class="impact-phrase">
+                        Transformando café em <span class="highlight-cyan">lógica escalável</span> e <span class="highlight-purple">sistemas robustos</span>.
+                    </p>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/pedro-valgas/" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+                        <a href="https://github.com/pedrovalgas" target="_blank"><i class="ph ph-github-logo"></i></a>
+                        <a href="https://www.instagram.com/pedro.lpv/" target="_blank"><i class="ph ph-instagram-logo"></i></a>
+                    </div>
+                </div>
+                
+                <div class="home-img">
+                    <div class="img-wrapper floating">
+                        <img src="assets/img/pixelart.png" alt="Pedro Valgas">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title">Projetos</h2>
+            <div class="projects-grid">
+                
+                <article class="project-card">
+                    <div class="card-image">
+                        <img src="assets/img/projects/agaply.jpg" alt="Projeto 1">
+                    </div>
+                    <div class="card-content">
+                        <h3>Agaply API</h3>
+                        <p>API para gestão de pequenos comércios com backend robusto e escalável.</p>
+                        <div class="tech-tags">
+                            <span>Java</span><span>Spring</span><span>Docker</span><span>PostgreSQL</span>
+                        </div>
+                        <div class="card-buttons">
+                            <a href="https://github.com/pedrovalgas/agaply/tree/main" target="_blank" class="btn-link"><i class="ph ph-github-logo"></i> Código</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="card-image">
+                        <img src="assets/img/projects/testes.png" alt="Projeto 2">
+                    </div>
+                    <div class="card-content">
+                        <h3>Testes automatizados</h3>
+                        <p>Projeto criado para a prática de testes automatizados, Sad e Happy end</p>
+                        <div class="tech-tags">
+                            <span>Java</span><span>Spring</span><span>PostgreSQL</span><span>JUnit</span><span>Mockito</span>
+                        </div>
+                        <div class="card-buttons">
+                            <a href="https://github.com/pedrovalgas/testes-automatizados" target="_blank" class="btn-link"><i class="ph ph-github-logo"></i> Código</a>
+                        </div>
+                    </div>
+                </article>
+
+                 <article class="project-card">
+                    <div class="card-image">
+                        <img src="assets/img/projects/ausenza.jpeg" alt="Projeto 3">
+                    </div>
+                    <div class="card-content">
+                        <h3>Ausenza</h3>
+                        <p>Projeto Fullstack para gerenciamento de férias para o setor de RH</p>
+                        <div class="tech-tags">
+                            <span>Java</span><span>Spring</span><span>React</span><span>PostgreSQL</span><span>Docker</span>
+                        </div>
+                        <div class="card-buttons">
+                            <a href="https://github.com/pedrovalgas/ausenza" target="_blank" class="btn-link"><i class="ph ph-github-logo"></i> Código</a>
+                        </div>
+                    </div>
+                </article>
+
+                 <article class="project-card">
+                    <div class="card-image">
+                        <img src="https://placehold.co/600x350/202024/FFF?text=Em+Desenvolvimento" alt="Projeto 4">
+                    </div>
+                    <div class="card-content">
+                        <h3>Em desenvolvimento...</h3>
+                        <p>Em desenvolvimento...</p>
+                        <div class="tech-tags">
+                            <span>???</span>
+                        </div>
+                        <div class="card-buttons">
+                            <a href="#" class="btn-link"><i class="ph ph-github-logo"></i> Código</a>
+                            <a href="#" class="btn-link"><i class="ph ph-globe"></i> Ver Projeto</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="section-title">Tecnologias</h2>
+            <div class="skills-container">
+                <div class="skill-card java"><i class="devicon-java-plain"></i> <h3>Java</h3></div>
+                <div class="skill-card spring"><i class="devicon-spring-original"></i> <h3>Spring</h3></div>
+                <div class="skill-card postgres"><i class="devicon-postgresql-plain"></i> <h3>Postgres</h3></div>
+                
+                <div class="skill-card docker"><i class="devicon-docker-plain"></i> <h3>Docker</h3></div>
+                <div class="skill-card git"><i class="devicon-git-plain"></i> <h3>Git</h3></div>
+                <div class="skill-card cicd"><i class="ph ph-arrows-merge"></i> <h3>CI/CD</h3></div>
+                <div class="skill-card rest"><i class="ph ph-plugs"></i> <h3>Rest API</h3></div>
+                
+                <div class="skill-card html"><i class="devicon-html5-plain"></i> <h3>HTML</h3></div>
+                <div class="skill-card css"><i class="devicon-css3-plain"></i> <h3>CSS</h3></div>
+                <div class="skill-card js"><i class="devicon-javascript-plain"></i> <h3>JS</h3></div>
+                <div class="skill-card react"><i class="devicon-react-original"></i> <h3>React</h3></div>
+            </div>
+        </section>
+        
+        <section id="about" class="section">
+            <div class="about-container">
+                <div class="about-image">
+                    <div class="img-wrapper floating-delay">
+                        <img src="assets/img/me.jpeg" alt="Pedro Valgas">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">Sobre Mim</h2>
+                    <p>Sou Desenvolvedor <strong>Backend Java</strong> especializado em <strong>Spring Boot</strong>, atuando na criação de APIs escaláveis, seguras e orientadas a boas práticas de engenharia. Implemento soluções com foco em desempenho, organização e arquitetura, aplicando princípios como <strong>Clean Architecture, SOLID, injeção de dependência, tratamento centralizado de exceções, validações, logs estruturados, paginação, filtros e interceptadores</strong> para garantir clareza, manutenibilidade e robustez do código.</p>
+                    <br>
+                    <p>Trabalho com <strong>PostgreSQL</strong>, realizando modelagem relacional consistente, criação de índices, otimização de consultas e uso de migrations para controle de versão do banco. Utilizo <strong>Docker</strong> para padronização de ambientes e pipelines de <strong>CI/CD</strong> para automação completa de build, testes e deploy, garantindo entregas contínuas e confiáveis.</p>
+                    <br>
+                    <p>Possuo também domínio de <strong>HTML, CSS e JavaScript</strong>, o que me permite compreender todo o fluxo entre front-end e back-end e entregar integrações bem estruturadas quando necessário.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title">Contato</h2>
+            <div class="contact-card-wrapper">
+                
+                <div class="contact-card">
+                    <div class="card-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="card-title">Informações de Contato</span>
+                    </div>
+                    
+                    <div class="card-body">
+                        <p class="contact-label">E-mail Comercial:</p>
+                        
+                        <div class="copy-container" onclick="copyEmail()">
+                            <div class="email-display">
+                                <i class="ph ph-envelope-simple"></i>
+                                <span id="emailText">plpvalgas@gmail.com</span>
+                            </div>
+                            <button class="copy-btn" title="Copiar E-mail">
+                                <i class="ph ph-copy"></i>
+                            </button>
+                            <span class="copy-feedback">Copiado!</span>
+                        </div>
+
+                        <div class="divider"></div>
+
+                        <p class="contact-label">Me encontre nas redes:</p>
+                        <div class="card-socials">
+                            <a href="https://www.linkedin.com/in/pedro-valgas/" target="_blank"><i class="ph ph-linkedin-logo"></i> LinkedIn</a>
+                            <a href="https://github.com/pedrovalgas" target="_blank"><i class="ph ph-github-logo"></i> GitHub</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer">
+                        <i class="ph ph-clock"></i> Respondo em até 24h
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>
+            &copy; 2025 Pedro Valgas. 
+            <i class="ph ph-code"></i> 
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
